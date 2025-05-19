@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Wrench : Tool
+public class Saw : Tool
 {
-    public Wrench(string name, int kg) : base(name, kg)
+    public Saw(string name, int kg) : base(name, kg)
     {
     }
 
@@ -13,6 +13,6 @@ public class Wrench : Tool
 
     public override void use()
     {
-        Console.WriteLine("is wrench") ;
+        Console.WriteLine($"is {name}");
     }
 }
