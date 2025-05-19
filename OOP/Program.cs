@@ -23,6 +23,8 @@ namespace OOP
             Drill new_drill = new Drill("new_drill", 44);
             my_tools.Add(new_drill);
             my_tools.Add(new_hammer);
+            NailGun nailgun = new NailGun("nail ", 20);
+            my_tools.Add(nailgun);
             foreach (Tool objects in my_tools)
             {
                 objects.describe();
